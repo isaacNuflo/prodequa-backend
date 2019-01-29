@@ -1,0 +1,403 @@
+{
+	"info": {
+		"_postman_id": "61747e8e-d2a8-435e-b8de-5579504a70cb",
+		"name": "prodequa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Persona: actualizar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Isaac Nuflo",
+							"type": "text"
+						},
+						{
+							"key": "dni",
+							"value": "75328398",
+							"type": "text"
+						},
+						{
+							"key": "celular",
+							"value": "980035530",
+							"type": "text"
+						},
+						{
+							"key": "correo",
+							"value": "isaac.nuflo21@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "Calle Carlos Alayza y Roel 2358",
+							"type": "text"
+						},
+						{
+							"key": "departamento",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "provincia",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "distrito",
+							"value": "Lince",
+							"type": "text"
+						},
+						{
+							"key": "comentario",
+							"value": "Gracias!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/persona/5c4f9a84e5942f3a347a9a52",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"persona",
+						"5c4f9a84e5942f3a347a9a52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona: crear",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Isaac Nuflo",
+							"type": "text"
+						},
+						{
+							"key": "dni",
+							"value": "75328398",
+							"type": "text"
+						},
+						{
+							"key": "celular",
+							"value": "980035530",
+							"type": "text"
+						},
+						{
+							"key": "correo",
+							"value": "isaac.nuflo21@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "Calle Carlos Alayza y Roel 2358",
+							"type": "text"
+						},
+						{
+							"key": "departamento",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "provincia",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "distrito",
+							"value": "Lince",
+							"type": "text"
+						},
+						{
+							"key": "comentario",
+							"value": "Gracias",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/persona",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"persona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona: obtener",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/persona",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"persona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona: borrar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/persona/5c4f9a84e5942f3a347a9a52",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"persona",
+						"5c4f9a84e5942f3a347a9a52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empresa: crear",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "World Vision",
+							"type": "text"
+						},
+						{
+							"key": "ruc",
+							"value": "75328398953",
+							"type": "text"
+						},
+						{
+							"key": "razon_social",
+							"value": "ONG",
+							"type": "text"
+						},
+						{
+							"key": "celular",
+							"value": "980035530",
+							"type": "text"
+						},
+						{
+							"key": "correo",
+							"value": "isaac.nuflo21@wvi.com",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "Calle Sanchez Cerro 2358",
+							"type": "text"
+						},
+						{
+							"key": "departamento",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "provincia",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "distrito",
+							"value": "Jesus Maria",
+							"type": "text"
+						},
+						{
+							"key": "comentario",
+							"value": "Gracias",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/empresa",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"empresa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empresa: actualizar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "World Vision",
+							"type": "text"
+						},
+						{
+							"key": "ruc",
+							"value": "75328398953",
+							"type": "text"
+						},
+						{
+							"key": "razon_social",
+							"value": "ONG",
+							"type": "text"
+						},
+						{
+							"key": "celular",
+							"value": "980035530",
+							"type": "text"
+						},
+						{
+							"key": "correo",
+							"value": "isaac.nuflo21@wvi.com",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "Calle Sanchez Cerro 2358",
+							"type": "text"
+						},
+						{
+							"key": "departamento",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "provincia",
+							"value": "Lima",
+							"type": "text"
+						},
+						{
+							"key": "distrito",
+							"value": "Jesus Maria",
+							"type": "text"
+						},
+						{
+							"key": "comentario",
+							"value": "Gracias!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/empresa/5c4f9cf4d7319b3d38a6166f",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"empresa",
+						"5c4f9cf4d7319b3d38a6166f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empresa: obtener",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/empresa",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"empresa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empresa: borrar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/empresa/5c4f9cf4d7319b3d38a6166f",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"empresa",
+						"5c4f9cf4d7319b3d38a6166f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
